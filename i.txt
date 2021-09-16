@@ -1,0 +1,6 @@
+def darkmode():
+    PasswordG.config(background='black')
+
+
+b1 = Button(text='test',font=('consolas', 10), bg='red', fg='white', command=(darkmode))
+b1.pack()
